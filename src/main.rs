@@ -22,7 +22,7 @@ async fn validator(
             return Ok(req);
         }
     }
-    return Err((ErrorUnauthorized("nope"), req));
+    Err((ErrorUnauthorized("nope"), req))
 }
 
 #[shuttle_runtime::main]

@@ -6,9 +6,9 @@ pub struct Creds {
 
 impl Creds {
     pub fn new(user: String, passwd: String) -> Self {
-        return Creds {
+        Creds {
             username: user,
             password: passwd,
-        };
+        }
     }
 }
