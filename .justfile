@@ -24,7 +24,7 @@ deploy:
 # Stop shuttle deployment
 [group('Shuttle')]
 stop:
-    shuttle stop
+    shuttle deployment stop
 
 # Run project locally
 [group('local')]
