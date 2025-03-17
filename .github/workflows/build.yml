@@ -12,7 +12,7 @@ jobs:
       - name: Prepare rust toolchain
         uses: actions-rust-lang/setup-rust-toolchain@v1
       - name: Prepare just
-        uses: extractions/setup-just@v2
+        uses: extractions/setup-just@v3
       - name: Build app
         run: just build
       - name: Check with Clippy
