@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 actix-web = "4.10.2"
-shuttle-actix-web = "0.53.0"
+shuttle-actix-web = "0.54.0"
 shuttle-runtime = "0.53.0"
 tokio = "1.44.2"
 actix-web-httpauth = "0.8.2"
