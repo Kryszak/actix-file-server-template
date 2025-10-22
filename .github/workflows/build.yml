@@ -11,6 +11,8 @@ jobs:
         uses: actions/checkout@v5
       - name: Prepare rust toolchain
         uses: actions-rust-lang/setup-rust-toolchain@v1
+        with:
+          components: clippy
       - name: Prepare just
         uses: extractions/setup-just@v3
       - name: Build app
